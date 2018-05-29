@@ -93,6 +93,9 @@ inoremap <F4> <Esc>mqggVG=`qzza
 vnoremap <F5> :sort i<CR>
 nnoremap <F5> Vip:sort i<CR>
 
+"jump to line number
+nnoremap <CR> G
+
 " press F8 to turn the search results highlight off
 noremap <F8> :nohl<CR>
 inoremap <F8> <Esc>:nohl<CR>a
